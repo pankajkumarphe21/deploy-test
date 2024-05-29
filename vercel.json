@@ -4,10 +4,6 @@
       {
         "src": "app.js",
         "use": "@vercel/node"
-      },
-      {
-        "src": "public/styles/tailwind.css",
-        "use": "@vercel/static"
       }
     ],
     "routes": [
