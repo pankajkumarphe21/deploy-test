@@ -22,7 +22,7 @@ app.use(express.urlencoded({extended:true}));
 app.use(express.static(path.join(__dirname,'public')));
 
 app.get('/', (req, res) => {
-  res.send('index');
+  res.render('index');
 });
 
 app.listen(port, () => {
