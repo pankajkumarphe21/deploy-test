@@ -25,10 +25,6 @@ app.get('/', (req, res) => {
   res.render('index');
 });
 
-app.post('/create',(req,res)=>{
-
-})
-
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });
